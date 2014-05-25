@@ -1,3 +1,7 @@
+if(!file.exists("./UCI HAR Dataset")) {
+    stop("UCI HAR Dataset directory should be available under current working directory.")
+}
+
 load.X <- function(dataFile, features, selected.features.ids, numrows) {
     nFeatures <- nrow(features)
     
