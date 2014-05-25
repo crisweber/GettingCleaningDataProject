@@ -1,5 +1,5 @@
 ### UCI HAR Activities Averages Instructions
-To perform this analysis you first have to download the UCI HAR Dataset from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip and then unzip to your working directory.
+* To perform this analysis you first have to download the UCI HAR Dataset from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip and then unzip to your working directory.
 
 * Start a new R session. 
 
@@ -7,12 +7,11 @@ To perform this analysis you first have to download the UCI HAR Dataset from htt
 ```
 find.package("reshape2")
 ```
-  
-    * If you see the message __there is no package called reshape2__ then install it using this command
+* If you see the message __there is no package called reshape2__ then install it using this command
 
-        ```
-        install.package("reshape2")
-        ```
+```
+install.package("reshape2")
+```
 
 * Set your working directory using `setwd` as follows (replacing YOUR_DIRECTORY with the directory where you download and extracted the UCI HAR Dataset):
 ```
