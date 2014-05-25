@@ -13,7 +13,7 @@ find.package("reshape2")
 install.package("reshape2")
 ```
 
-* Set your working directory using `setwd` as follows (replacing YOUR_DIRECTORY with the directory where you download and extracted the UCI HAR Dataset):
+* Set your working directory using `setwd` as follows (replacing YOUR_DIRECTORY with the directory where you downloaded and extracted the UCI HAR Dataset):
 ```
 setwd(YOUR_DIRECTORY)
 ```
@@ -24,7 +24,7 @@ setwd(YOUR_DIRECTORY)
 source(PATH_TO/run_analysis.R)
 ```
 
-* A new file called activities_averages.csv will be created in your working directory.
+* A new file called **activities_averages.csv** will be created in your working directory.
 
 
 ****
